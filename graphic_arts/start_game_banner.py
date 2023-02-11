@@ -10,7 +10,6 @@ import sys
 
 def animation(screen):
     scenes = []
-    print('123')
     text = Figlet(font="banner", width=200).renderText("START GAME")
     effects = [
         Print(screen,
